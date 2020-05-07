@@ -32,12 +32,18 @@
   "dependencies": {
     "html-webpack-plugin": "^4.3.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "styled-components": "^5.1.0"
   },
   "standard": {
-    "ignore": ["/api/**"]
+    "ignore": [
+      "/api/**"
+    ]
   },
   "eslintConfig": {
-    "extends": ["./node_modules/standard.eslintrc.json"]
+    "extends": [
+      "./node_modules/standard.eslintrc.json"
+    ]
   }
 }
