@@ -1,17 +1,13 @@
-import React from 'react';
-import { PhotoCard } from '../PhotoCard'
-import {List, Item} from './styles'
+import React from "react";
+import { PhotoCard } from "../PhotoCard";
+import { List, Item } from "./styles";
 
 export const ListOfPhotoCards = () => {
   return (
-    <List>
-      {
-        [1,2,3].map((id) => (
-          <Item key={id}>
-            <PhotoCard />
-          </Item>
-        ))
-      }
-    </List>
+    <ul>
+      {[1, 2, 3, 4, 5, 6, 7].map((id) => (
+        <PhotoCard key={id} id={id} />
+      ))}
+    </ul>
   );
 };

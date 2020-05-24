@@ -52,7 +52,6 @@ export const ListOfCategories = () => {
       )}
     </List>
   );
-  console.log(showFixed);
   if (loading) {
     return "Cargando ...";
   }
