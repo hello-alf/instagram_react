@@ -24,12 +24,3 @@ export const Image = styled.img`
   width: 100%;
   ${fadeIn({ time: "2s" })}
 `;
-
-export const Button = styled.button`
-  display: flex;
-  align-items: center;
-  padding-top: 8px;
-  & svg {
-    margin: 4px;
-  }
-`;
